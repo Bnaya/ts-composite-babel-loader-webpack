@@ -1,7 +1,8 @@
 {
-    "name": "common",
+    "name": "@workspace/common",
     "main": "index",
+    "version": "0.0.1",
     "dependencies": {
-      "utils": "*"
+      "@workspace/utils": "*"
     }
 }

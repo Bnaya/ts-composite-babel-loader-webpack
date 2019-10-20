@@ -1,2 +1,7 @@
 node_modules
 packages/*js
+dist
+
+*.d.ts
+*.d.ts.map
+tsconfig.tsbuildinfo

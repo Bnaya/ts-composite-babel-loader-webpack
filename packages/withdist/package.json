@@ -1,0 +1,7 @@
+{
+    "name": "@workspace/withdist",
+    "main": "dist/index",
+    "_types": "src/index",
+    "version": "0.0.1",
+    "typescriptSource": "src/index.ts"
+}

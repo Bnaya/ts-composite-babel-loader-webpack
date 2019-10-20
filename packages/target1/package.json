@@ -1,8 +1,10 @@
 {
-    "name": "target1",
+    "name": "@workspace/target1",
     "main": "index",
+    "version": "0.0.1",
     "dependencies": {
-      "utils": "*",
-      "common": "*"
+      "@workspace/utils": "*",
+      "@workspace/common": "*",
+      "@workspace/withdist": "*"
     }
 }

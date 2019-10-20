@@ -1,3 +1,16 @@
+// this file is not being picked up ???
 {
-  "presets": ["@babel/preset-typescript"]
+  "presets": [
+    "@babel/preset-typescript",
+    [
+      "@babel/preset-env",
+      {
+        "debug": true,
+        "targets": {
+          "browsers": "last 1 Chrome versions"
+        },
+        "modules": false
+      }
+    ]
+  ]
 }

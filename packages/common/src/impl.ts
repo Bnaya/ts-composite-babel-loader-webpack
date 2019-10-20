@@ -1,6 +1,6 @@
-import { util } from "utils";
+import { utils } from "@workspace/utils";
 
 export function common() {
-  util()
+  utils()
   console.log("common");
 }

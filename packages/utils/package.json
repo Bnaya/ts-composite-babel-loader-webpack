@@ -1,4 +1,5 @@
 {
-    "name": "utils",
-    "main": "index"
+    "name": "@workspace/utils",
+    "main": "index",
+    "version": "0.0.1"
 }

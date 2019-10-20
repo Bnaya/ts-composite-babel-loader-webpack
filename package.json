@@ -1,5 +1,5 @@
 {
-  "name": "refs",
+  "name": "@workspace/refs",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -9,6 +9,7 @@
   ],
   "devDependencies": {
     "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
     "@babel/preset-typescript": "^7.6.0",
     "babel-loader": "^8.0.6",
     "typescript": "^3.7.0-dev.20191018",
@@ -16,6 +17,10 @@
     "webpack-cli": "^3.3.9"
   },
   "scripts": {
-    "dedup": "npx yarn-deduplicate -s fewer yarn.lock"
+    "dedup": "npx yarn-deduplicate -s fewer yarn.lock",
+    "build": "webpack",
+    "typecheck": "tsc --build packages/target1/tsconfig.json --incremental",
+    "typecheck-watch": "tsc --build packages/target1/tsconfig.json --incremental",
+    "cleanup": "git clean -fdx packages/"
   }
 }
