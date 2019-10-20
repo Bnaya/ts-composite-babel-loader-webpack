@@ -20,3 +20,5 @@ common()
 utils();
 withdist()
 
+// something with type
+const a: string = "asd";
