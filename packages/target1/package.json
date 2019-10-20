@@ -1,0 +1,8 @@
+{
+    "name": "target1",
+    "main": "index",
+    "dependencies": {
+      "utils": "*",
+      "common": "*"
+    }
+}

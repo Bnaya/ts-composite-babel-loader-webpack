@@ -1,0 +1,7 @@
+{
+    "name": "common",
+    "main": "index",
+    "dependencies": {
+      "utils": "*"
+    }
+}

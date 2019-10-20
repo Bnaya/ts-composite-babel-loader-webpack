@@ -1,0 +1,21 @@
+{
+  "name": "refs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/**"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-typescript": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "typescript": "^3.7.0-dev.20191018",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "scripts": {
+    "dedup": "npx yarn-deduplicate -s fewer yarn.lock"
+  }
+}
