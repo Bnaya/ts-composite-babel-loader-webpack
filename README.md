@@ -6,7 +6,6 @@ Using `babel-loader` and not `ts-loader`. ts-loader has built-in support for pro
 
 CRA issue [#7807](https://github.com/facebook/create-react-app/issues/7807)
 
-
 ## Info
 
 No typechecking via webpack plugin. `fork-ts-checker-webpack-plugin` doesn't support project refs yet [#328](https://github.com/TypeStrong/fork-ts-checker-webpack-plugin/issues/328).
